@@ -18,7 +18,7 @@ Each entry is 4 lines long, and each line has 27 characters. The first 3 lines o
 
 Your first task is to write a program that can take this file and parse it into actual account numbers.
 
-###User Story 2
+### User Story 2
 Having done that, you quickly realize that the ingenious machine is not in fact infallible. Sometimes it goes wrong in its scanning. The next step therefore is to validate that the numbers you read are in fact valid account numbers. A valid account number has a valid checksum. This can be calculated as follows:
 ```
 account number:  3  4  5  8  8  2  8  6  5
@@ -29,7 +29,7 @@ checksum calculation:
 ```
 So now you should also write some code that calculates the checksum for a given number, and identifies if it is a valid account number.
 
-###User Story 3
+### User Story 3
 Your boss is keen to see your results. He asks you to write out a file of your findings, one for each input file, in this format:
 ```
 457508000
